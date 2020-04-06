@@ -162,14 +162,14 @@ Follow the below steps to generate the project using Atmel|START.
 ## Timer B configuration:
  Timer B is a 16-bit Timer which is configured in Input Capture Frequency and Pulse-Width measurement mode and it is used to measure the period and pulse-width of the input signal. In this mode, the timer will start counting when a positive edge is detected on the event channel connected to the pin PA6. 
  Configure the TIMER_0 module by following the steps  as shown in the Fig 12. 
-* Open the configuration window for TIMER by clicking on TIMER_0.
-* Select Drivers: TCB: Init option from the dropdown menu against the Driver field, which selects Timer/Counter type B peripheral.
-* Select TCB2 option from the dropdown menu against the Instance field.
+* Open the configuration window for TIMER by clicking on **TIMER_0**.
+* Select **Drivers: TCB: Init** option from the dropdown menu against the Driver field, which selects Timer/Counter type B peripheral.
+* Select **TCB2** option from the dropdown menu against the Instance field.
 * Check the Enable option to enable the TCB2 module.
-* Select CLK_PER option from the dropdown menu against the CLKSEL: Clock Select field, which uses 24MHz system clock as a clock source for this peripheral.
-* Select Input Capture Frequency and Pulse-Width measurement mode option from the dropdown menu against the CNTMODE: Timer Mode field, which captures period and pulse-width value of the input signal.
-* Check the CAPT: Capture or Timeout option to generate the capture interrupt. The capture interrupt flag is generated after capturing the period and pulse-width of the input signal.
-* Check the CAPTEI: Event Input Enable option to enable the timer to start counting when it detects rising edge on the event channel connected to the pin PA6.
+* Select **CLK_PER** option from the dropdown menu against the CLKSEL: Clock Select field, which uses 24MHz system clock as a clock source for this peripheral.
+* Select **Input Capture Frequency and Pulse-Width measurement** mode option from the dropdown menu against the CNTMODE: Timer Mode field, which captures period and pulse-width value of the input signal.
+* Check the **CAPT: Capture or Timeout** option to generate the capture interrupt. The capture interrupt flag is generated after capturing the period and pulse-width of the input signal.
+* Check the **CAPTEI: Event Input Enable** option to enable the timer to start counting when it detects rising edge on the event channel connected to the pin PA6.
 
 ***Fig 12 : Timer B configuration***
 <p align="center">
@@ -179,7 +179,7 @@ Follow the below steps to generate the project using Atmel|START.
 ## Event system configuration: 
 In this example, event system is used to connect the pin PA6 to the TCB2 through channel 0. The frequency and duty cycle of the input signal to be measured can’t be given directly to the TCB2, is given to the pin PA6 through event channel to the timer module. 
 Configure the Event system module by following the steps shown in the Fig 13. 
-* In event generator, select PORT A PIN6 option and drag the cursor to the Connect user to event channel 0 option and from Connect user to event channel 0 option, drag the cursor to the Event Input Enable option in TCB2.
+* In event generator, select **PORT A PIN6** option and drag the cursor to the **Connect user to event channel 0** option and from **Connect user to event channel 0** option, drag the cursor to the **Event Input Enable** option in TCB2.
 
 ***Fig 13 : Event system configurator***
 <p align="center">
@@ -188,12 +188,12 @@ Configure the Event system module by following the steps shown in the Fig 13.
 
 ## USART1 Configuration:
  USART1 is used to transmit the measured frequency and duty cycle data of the input signal to the terminal window. Configure the USART1 module by following the steps shown in the Fig 14.
-* Select Drivers: USART: Basic option from the dropdown menu against the Driver field.
-* Select Async IRQ Mode option from the dropdown menu against the Mode field.
-* Select the USART1 option from the dropdown menu against the Instance field.
-* Select PC0 as output from the dropdown menu against the TXD field.
-* Check the Transmitter: Enable option, which allows the data to transmit through USART peripheral.
-* Set the Baud Rate to 115200.
+* Select **Drivers: USART: Basic** option from the dropdown menu against the Driver field.
+* Select **Async IRQ Mode** option from the dropdown menu against the Mode field.
+* Select the **USART1** option from the dropdown menu against the Instance field.
+* Select **PC0** as output from the dropdown menu against the TXD field.
+* Check the **Transmitter: Enable** option, which allows the data to transmit through USART peripheral.
+* Set the **Baud Rate** to **115200**.
 
 ***Fig 14 : USART configuration***
 <p align="center">
@@ -202,11 +202,11 @@ Configure the Event system module by following the steps shown in the Fig 13.
 
 ## RTC configuration:
  In this example RTC is configured in PIT (Periodic Interrupt Timer) mode, which generates a periodic interrupt after every 32768 RTC Clock cycles (1 sec delay). The periodic interrupt is used as a trigger for the USART to display data on to the terminal window. Configure the RTC module by following the steps shown in the Fig 15.
-* Select Drivers: RTC: Init option from the dropdown menu against the Driver field.
-* Check the PITEN: Enable option to enable the periodic interrupt timer mode.
-* Select the clock 32.768KHz oscillator option from the dropdown menu against the RTC Clock Source Selection field, which uses 32.768 KHz oscillator as a clock source for the RTC peripheral.
-* Select the period RTC Clock Cycles 32768 option from the dropdown menu against the PERIOD: Period field, which generates 1 sec delay.
-* Check the PI: Periodic Interrupt option to generate periodic interrupt after specified RTC clock cycles.
+* Select **Drivers: RTC: Init** option from the dropdown menu against the Driver field.
+* Check the **PITEN: Enable** option to enable the periodic interrupt timer mode.
+* Select the clock **Internal 32.768KHz oscillator** option from the dropdown menu against the **RTC Clock Source Selection** field, which uses 32.768 KHz oscillator as a clock source for the RTC peripheral.
+* Select the period **RTC Clock Cycles 32768** option from the dropdown menu against the **PERIOD: Period** field, which generates 1 sec delay.
+* Check the **PI: Periodic Interrupt** option to generate periodic interrupt after specified RTC clock cycles.
 
 ***Fig 15 : RTC configuration***
 <p align="center">
@@ -223,9 +223,9 @@ To generate the interrupt, it is required to enable the Global Interrupt Enable 
   <img width=auto height=auto src="https://i.imgur.com/9zGu2eY.jpg">
 </p>
 
-* Click the CPUINT and then select the checkbox, CPU_SREG: Global Interrupt Enable, as shown in the Fig 17.
+* Click the **CPUINT** and then select the checkbox, **CPU_SREG: Global Interrupt Enable**, as shown in the Fig 17.
 
-***Fig 17 : Enable CPU_SREGs***
+***Fig 17 : Enable CPU_SREG***
 <p align="center">
   <img width=auto height=auto src="https://i.imgur.com/3nL7Z27.jpg">
 </p>
