@@ -3,7 +3,9 @@
 The Timer/Counter type B (TCB) module of the AVR-DA family of devices offers a variety of features and operation modes, from periodic interrupts to 8-bit PWM mode. The various operation modes of the TCB can be used in correlation with the event system. The capabilities of the 16-bit Timer/Counter type B includes single pulse generation and input capture on event with frequency and pulse width measurement of the digital signals. 
 This example explains, how the Timer/Counter type B module of AVR128DA48 microcontroller is used to measure the frequency and duty cycle of the pulse waveform.
 
-**Note: This example could be generated with all the pin variants of AVR-DA family of microcontrollers.**
+**Note: 1.	This example could be generated with all the pin variants of AVR-DA family of microcontrollers.
+2.	This example is also generated using MCC and is available on GitHub at this location.https://github.com/microchip-pic-avr-examples/avr128da48-tcb-frequency-dutycycle-measurement-mplab-example.git.**
+ 
 
 # Demo Description
 
