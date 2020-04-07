@@ -8,7 +8,7 @@ This example explains, how the Timer/Counter type B module of AVR128DA48 microco
 **1.	This example could be generated with all the pin variants of AVR-DA family of microcontrollers.**
 
 **2.	This example is also generated using MPLAB and is available on GitHub at this location.**
-https://github.com/microchip-pic-avr-examples/avr128da48-tcb-frequency-dutycycle-measurement-mplab-example.git.
+https://github.com/microchip-pic-avr-examples/avr128da48-tcb-frequency-dutycycle-measurement-mplab-example.git
  
 
 # Demo Description
