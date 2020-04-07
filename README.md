@@ -3,8 +3,10 @@
 The Timer/Counter type B (TCB) module of the AVR-DA family of devices offers a variety of features and operation modes, from periodic interrupts to 8-bit PWM mode. The various operation modes of the TCB can be used in correlation with the event system. The capabilities of the 16-bit Timer/Counter type B includes single pulse generation and input capture on event with frequency and pulse width measurement of the digital signals. 
 This example explains, how the Timer/Counter type B module of AVR128DA48 microcontroller is used to measure the frequency and duty cycle of the pulse waveform.
 
-**Note: 1.	This example could be generated with all the pin variants of AVR-DA family of microcontrollers.
-2.	This example is also generated using MCC and is available on GitHub at this location.https://github.com/microchip-pic-avr-examples/avr128da48-tcb-frequency-dutycycle-measurement-mplab-example.git.**
+**Note:**
+**1.	This example could be generated with all the pin variants of AVR-DA family of microcontrollers.**
+**2.	This example is also generated using MPLAB and is available on GitHub at this location.**
+https://github.com/microchip-pic-avr-examples/avr128da48-tcb-frequency-dutycycle-measurement-mplab-example.git.
  
 
 # Demo Description
@@ -206,7 +208,7 @@ Configure the Event system module by following the steps shown in the Fig 13.
  In this example RTC is configured in PIT (Periodic Interrupt Timer) mode, which generates a periodic interrupt after every 32768 RTC Clock cycles (1 sec delay). The periodic interrupt is used as a trigger for the USART to display data on to the terminal window. Configure the RTC module by following the steps shown in the Fig 15.
 * Select **Drivers: RTC: Init** option from the dropdown menu against the Driver field.
 * Check the **PITEN: Enable** option to enable the periodic interrupt timer mode.
-* Select the clock **Internal 32.768KHz oscillator** option from the dropdown menu against the **RTC Clock Source Selection** field, which uses 32.768 KHz oscillator as a clock source for the RTC peripheral.
+* Select the clock **Internal 32.768KHz oscillator** option from the dropdown menu against the **RTC Clock Source Selection** field, which uses 32.768 KHz oscillator as a clock source for the PIT mode.
 * Select the period **RTC Clock Cycles 32768** option from the dropdown menu against the **PERIOD: Period** field, which generates 1 sec delay.
 * Check the **PI: Periodic Interrupt** option to generate periodic interrupt after specified RTC clock cycles.
 
