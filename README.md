@@ -130,7 +130,7 @@ Follow the below steps to generate the project using Atmel|START.
 </p>
 
 4.	After project creation, **MY SOFTWARE COMPONENTS** window opens. 
-* Open **PINMUX** configuration by clicking on ![](https://i.imgur.com/ggqjWKi.jpg) icon in the navigation tab, located on the left side of the window.
+* Open **PINMUX** configuration by clicking on ![](images/pinmux.png) icon in the navigation tab, located on the left side of the window.
 * Configure I/O pin **PA6** as input as shown in the Fig 8. The frequency and duty cycle of the input pulse signal to be measured is fed to the I/O pin PA6.
 
 <p align="center">
@@ -139,9 +139,9 @@ Follow the below steps to generate the project using Atmel|START.
 </p>
 
 5.	Add **Timer B, Event system, USART and RTC** components to the project
-* Click ![](https://i.imgur.com/PXgXvRm.jpg) icon in the navigation tab, located on the left side of the window. Then, open the ADD SOFTWARE COMPONENTS window by clicking ![](https://i.imgur.com/AFqwPll.jpg) icon.
+* Click ![](images/dashboard.png) icon in the navigation tab, located on the left side of the window. Then, open the ADD SOFTWARE COMPONENTS window by clicking ![](images/add-software-components.png) icon.
 * Expand Drivers by clicking + icon.
-* To add components to the project, select Timer , Event System, RTC, USART and click on ![](https://i.imgur.com/dA4nv4t.jpg) icon.
+* To add components to the project, select Timer , Event System, RTC, USART and click on ![](images/plusicon.png) icon.
 * Add the respective drivers to the project by clicking the Add component(s).
 
 <p align="center">
