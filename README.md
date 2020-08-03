@@ -149,14 +149,14 @@ Follow the below steps to generate the project using Atmel|START.
    <br><strong>Fig 9 : 	ADD SOFTWARE COMPONENTS<br>
 </p>
 
-6.	Open the **CLOCK CONFIGURATOR** window by clicking ![](https://i.imgur.com/TOX2iTj.jpg) CLOCKS icon in the navigation tab, located at the left side of the window as shown in the Fig 10.
+6.	Open the **CLOCK CONFIGURATOR** window by clicking ![](images/clockicon.png) CLOCKS icon in the navigation tab, located at the left side of the window as shown in the Fig 10.
 
 <p align="center">
   <img width=auto height=auto src="images/clock1.png">
    <br><strong>Fig 10 : Clock configurator<br>
 </p>
 
-* Configure the **Internal high-frequency oscillator** by clicking **CLOCK SETTINGS** ![](https://i.imgur.com/Q76XwcD.jpg) icon as shown in the Fig 10.
+* Configure the **Internal high-frequency oscillator** by clicking **CLOCK SETTINGS** ![](images/settings.png) icon as shown in the Fig 10.
 * By default, Internal high-frequency oscillator is configured to 4MHz frequency. Set the **Frequency Select** to **24** from the dropdown menu, which generates 24MHz frequency as shown in Fig 11.
 
 <p align="center">
