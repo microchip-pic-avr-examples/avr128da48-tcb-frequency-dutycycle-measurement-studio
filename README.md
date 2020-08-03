@@ -48,7 +48,7 @@ In this example,
 * AVR128DA48 Curiosity Nano Evaluation Kit [[Part Number:DM164151]](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM164151 "[Part Number:DM164151]")
 
 <p align="center">
-  <img width=600 height=auto src="images/4.png">
+  <img width=600 height=auto src="images/hardware.png">
   <br><strong>Fig 2 : AVR128DA48 Curiosity Nano Evaluation Kit<br>
 </p> 
 
@@ -72,7 +72,7 @@ The following figure shows the hardware connection details.
 * Connect GND pin of the signal generator to GND pin of the AVR128DA48 curiosity nano board.
 
 <p align="center">
-  <img width=600 height=auto src="images/hardware.png">
+  <img width=600 height=auto src="images/hardwaresetup.png">
   <br><strong>Fig 3 : Hardware setup<br>
 </p> 
 
