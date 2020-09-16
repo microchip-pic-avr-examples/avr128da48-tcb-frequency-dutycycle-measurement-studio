@@ -1,5 +1,8 @@
 [![MCHP](https://cldup.com/U0qhLwBijF.png)](https://www.microchip.com)
-# Introduction  
+
+## Frequency and Dutycycle measurement Studio example
+
+## Introduction  
 The Timer/Counter type B (TCB) module of the AVR DA family of devices offers a variety of features and operation modes, from periodic interrupts to 8-bit PWM mode. The various operation modes of the TCB can be used in correlation with the event system. The capabilities of the 16-bit Timer/Counter type B includes single pulse generation and input capture on event with frequency and pulse width measurement of the digital signals. 
 This example explains, how the Timer/Counter type B module of AVR128DA48 microcontroller is used to measure the frequency and duty cycle of the pulse waveform.
 
@@ -18,7 +21,7 @@ This example explains, how the Timer/Counter type B module of AVR128DA48 microco
 - [AVR128DA48 Project Examples in START](https://start.atmel.com/#examples/AVR128DA48CuriosityNano "AVR128DA48 Project Examples in START")
 - [Frequency and Duty cycle measurement - MPLABX Example]( https://github.com/microchip-pic-avr-examples/avr128da48-tcb-frequency-dutycycle-measurement-mplab.git "Frequency and Duty cycle measurement")
 
-# Demo Description
+## Demo Description
 
 <p align="center">
   <img width=auto height=auto src="images/blockdiagram.png">
@@ -41,7 +44,7 @@ In this example,
 
 * RTC is used in a Periodic Interrupt Timer (PIT) mode to generate a periodic interrupt, which is used as a trigger for the USART module to transmit the data to the data visualizer terminal window.
 
-# Hardware used
+## Hardware used
 
 ## AVR128DA48 Curiosity nano board
 
@@ -53,19 +56,17 @@ In this example,
 </p> 
 
 
-# Software used
+## Software used
 
 - Atmel Studio 7.0.2397 [link](https://www.microchip.com/mplab/avr-support/atmel-studio-7 "link")
 - AVR/GNU C Compiler [link](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers "link")
 - Atmel START [link](https://www.microchip.com/mplab/avr-support/atmel-start "link")
-- AVR-Dx DFP 1.3.67 [link](http://packs.download.atmel.com/ "link")
+- AVR-Dx DFP 1.4.73 [link](http://packs.download.atmel.com/ "link")
 - Standalone Data Visualizer v2.20.674 [link](https://www.microchip.com/mplab/avr-support/data-visualizer "link")
 
 **Note: For running the demo, the installed tool versions should be the same or later. This example is not tested with the previous versions.**
 
-
-
-# Hardware setup
+## Hardware setup
 
 The following figure shows the hardware connection details.
 * Connect output pin of signal generator, which generates pulse signal, to pin PA6 of the  AVR128DA48 curiosity nano board.
@@ -91,7 +92,7 @@ Open the terminal window in Standalone Data Visualizer tool to observe the measu
   <br><strong>Fig 4 : Open Terminal window in Data visualizer<br>
 </p>
 
-# Demo Operation:
+## Demo Operation:
 
 * Setup the hardware as shown in Fig 3 of the hardware setup section.
 * After the Curiosity Nano board is powered on, load the application firmware to AVR128DA48 microcontroller.
@@ -109,12 +110,12 @@ Open the terminal window in Standalone Data Visualizer tool to observe the measu
   <br><strong>Fig 6 : Open Terminal window in Data visualizer<br>
 </p>
 
-# Summary : 
+## Summary : 
 
 Timer/Counter type B (TCB) can be configured in one of the eight possible operating modes,  each mode provides unique functionality. This is one of the applications, which explains how the timer is configurable in “Frequency and Pulse-width measurement mode” to measure frequency and duty cycle of the input signal. Measuring the frequency (1/period) or pulse-width of an input signal is useful in applications such as tachometers, Frequency meter, DC motor control etc.
 
 
-# Appendix : Atmel | START Project creation
+## Appendix : Atmel | START Project creation
 
 Configure Timer, Event system, GPIO, RTC, USART peripherals  through Atmel|START code configurator and generate Atmel Studio project. 
 
