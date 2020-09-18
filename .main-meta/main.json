@@ -6,7 +6,7 @@
         "name": "com.microchip.mcu8.mplabx.project.",
         "version": "1.0.1",
         "displayName": "Frequency and duty cycle measurement of a pulse signal",
-        "projectName": "",
+        "projectName": "avr128da48-tcb-frequency-dutycycle-measurement-studio",
         "shortDescription": "This example demonstrates frequency and duty cycle measurement of a pulse signal using Timer/Counter type B (TCB), Event system and RTC (PIT) modules of AVR128DA48 microcontroller",
         "ide": {
             "name": "Studio",
@@ -40,27 +40,33 @@
         "subcategories": [
             "START",
             [
-               "Peripherals", "TCB"
+               "Peripherals", "TIMER"
             ],
             [
-               "Peripherals", "EVENT SYSTEM"
-            ], 
-			[
-               "Peripherals", "USART"
-            ], 
-			[
                "Peripherals", "PIT"
             ],
 			[
-               "Peripherals", "GPIO"
+               "Peripherals", "USART"
+            ],
+			[
+               "Peripherals", "EVENT SYSTEM"
+            ],
+			[
+               "Peripherals", "INTERRUPT"
             ]
         ],
         "peripherals": [
-            "TCB","EVENT SYSTEM","USART","PIT","GPIO"
+            "TIMER","PIT","USART","EVENT SYSTEM", "INTERRUPT"
         ],
         "keywords": [
-            "",
-            ""			
+            "Frequency",
+            "Duty cycle",
+			"Pulse signal",
+			"AVR DA",
+			"AVR128DA48",
+			"Curiosity Nano Evaluation Kit",
+			"Interrupt",
+			"Waveform"			
         ],
 		"additionalData": {
 			"longDescription": {

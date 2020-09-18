@@ -19,7 +19,7 @@ This example explains, how the Timer/Counter type B module of AVR128DA48 microco
 - [AVR128DA48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DA28 "AVR128DA48 Product Page")
 - [AVR128DA48 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=avr128da48 "AVR128DA48 Code Examples on GitHub")
 - [AVR128DA48 Project Examples in START](https://start.atmel.com/#examples/AVR128DA48CuriosityNano "AVR128DA48 Project Examples in START")
-- [Frequency and Duty cycle measurement - MPLABX Example]( https://github.com/microchip-pic-avr-examples/avr128da48-tcb-frequency-dutycycle-measurement-mplab.git "Frequency and Duty cycle measurement")
+- [Frequency and Duty cycle measurement - MPLAB X Example]( https://github.com/microchip-pic-avr-examples/avr128da48-tcb-frequency-dutycycle-measurement-mplab.git "Frequency and Duty cycle measurement - MPLAB X Example")
 
 ## Demo Description
 
