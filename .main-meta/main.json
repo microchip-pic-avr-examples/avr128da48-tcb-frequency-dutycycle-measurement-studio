@@ -9,18 +9,18 @@
         "projectName": "avr128da48-tcb-frequency-dutycycle-measurement-studio",
         "shortDescription": "This example demonstrates frequency and duty cycle measurement of a pulse signal using Timer/Counter type B (TCB), Event system and RTC (PIT) modules of AVR128DA48 microcontroller",
         "ide": {
-            "name": "Studio",
+            "name": "Atmel Studio 7",
             "semverRange": ">=7.0.2397"
         },
         "compiler": [
 			{
-				"name": "Avr-Gcc",
+				"name": "AVR-GCC",
 				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
             "name": "AVR-Dx_DFP",
-            "semverRange": "1.2.56"
+            "semverRange": "1.4.73"
         },
         "configurator": {
             "name": "START",
@@ -40,7 +40,7 @@
         "subcategories": [
             "START",
             [
-               "Peripherals", "TIMER"
+               "Peripherals", "TCB"
             ],
             [
                "Peripherals", "PIT"
@@ -56,7 +56,7 @@
             ]
         ],
         "peripherals": [
-            "TIMER","PIT","USART","EVENT SYSTEM", "INTERRUPT"
+            "TCB","PIT","USART","EVENT SYSTEM", "INTERRUPT"
         ],
         "keywords": [
             "Frequency",
@@ -66,7 +66,9 @@
 			"AVR128DA48",
 			"Curiosity Nano Evaluation Kit",
 			"Interrupt",
-			"Waveform"			
+			"Waveform",
+			"Timers/Counters",
+			"AVR128DA48 Curiosity Nano development kit"
         ],
 		"additionalData": {
 			"longDescription": {
