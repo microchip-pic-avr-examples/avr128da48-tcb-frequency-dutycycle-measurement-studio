@@ -4,17 +4,17 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "Frequency and Dutycycle measurement of Pulse signal - Studio project",
         "projectName": "avr128da48-tcb-frequency-dutycycle-measurement-studio",
         "shortDescription": "This example demonstrates frequency and duty cycle measurement of a pulse signal using Timer/Counter type B (TCB), Event system and RTC (PIT) modules of AVR128DA48 microcontroller",
         "ide": {
-            "name": "Atmel Studio 7",
+            "name": "STUDIO",
             "semverRange": ">=7.0.2397"
         },
         "compiler": [
 			{
-				"name": "AVR-GCC",
+				"name": "AVR GCC",
 				"semverRange": "^5.4.0"
 			}
 		],
@@ -32,7 +32,7 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "avr128da48",
+                "name": "AVR128DA48",
                 "versionRange": "*"
             }
         },
@@ -43,20 +43,17 @@
                "Peripherals", "TCB"
             ],
             [
-               "Peripherals", "PIT"
+               "Peripherals", "RTC"
             ],
 			[
                "Peripherals", "USART"
             ],
 			[
-               "Peripherals", "EVENT SYSTEM"
-            ],
-			[
-               "Peripherals", "INTERRUPT"
+               "Peripherals", "EVSYS"
             ]
         ],
         "peripherals": [
-            "TCB","PIT","USART","EVENT SYSTEM", "INTERRUPT"
+            "TCB","RTC","USART","EVSYS"
         ],
         "keywords": [
             "Frequency",
