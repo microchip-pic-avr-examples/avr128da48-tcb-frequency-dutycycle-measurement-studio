@@ -39,7 +39,6 @@
         "author": "Microchip",
         "subcategories": [
             "START",
-			"Displays",
             [
                "Peripherals", "TCB"
             ],
@@ -62,7 +61,7 @@
 			"Pulse signal",
 			"AVR DA",
 			"AVR128DA48",
-			"Curiosity Nano Evaluation Kit",
+			"Curiosity Nano",
 			"Interrupt",
 			"Waveform",
 			"Timers/Counters",
