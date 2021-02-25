@@ -59,13 +59,9 @@
             "Frequency",
             "Duty cycle",
 			"Pulse signal",
-			"AVR DA",
-			"AVR128DA48",
 			"Curiosity Nano",
 			"Interrupt",
-			"Waveform",
-			"Timers/Counters",
-			"AVR128DA48 Curiosity Nano development kit"
+			"Waveform"
         ],
 		"additionalData": {
 			"longDescription": {
