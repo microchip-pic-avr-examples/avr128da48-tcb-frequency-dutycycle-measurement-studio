@@ -56,12 +56,10 @@
             "TCB","RTC","USART","EVSYS"
         ],
         "keywords": [
-            "Frequency",
+            "Frequency Measurement",
             "Duty cycle",
 			"Pulse signal",
-			"Curiosity Nano",
-			"Interrupt",
-			"Waveform"
+			"Curiosity Nano"
         ],
 		"additionalData": {
 			"longDescription": {
